@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">calculateInterest19110168</string>
+    <string name="title">CÔNG CỤ TÍNH LÃI TIỀN GỬI</string>
+    <string name="label_deposit">Số tiền gửi *</string>
+    <string name="label_hint_deposit">đ</string>
+    <string name="label_deposit_interest_rate">Lãi suất gửi *</string>
+    <string name="label_hint_deposit_interest_rate">%/Năm</string>
+    <string name="label_sending_term">Kỳ hạn gửi *</string>
+    <string name="label_hint_sending_term">Tháng</string>
+    <string name="btn_seen_result">XEM KẾT QUẢ</string>
+    <string name="label_total_receiving_interest">Số tiền lãi nhận được</string>
+    <string name="label_total_money_receive">Tổng số tiền nhận được khi đến hạn</string>
+    <string name="error_input_deposit">Số tiền gửi không được để trống và giá trị nhập phải lớn hơn 1000đ</string>
+    <string name="error_input_interest">Lãi suất gửi không được để trống, vui lòng nhập</string>
+    <string name="error_input_due">Kỳ hạn gửi không được để trống, vui lòng nhập</string>
+    <string name="key_deposit">send_deposit</string>
+    <string name="key_interest_rate">send_interest_rate</string>
+    <string name="key_sending_term">send_term</string>
+    <string name="key_total_receive_interest">send_total_receive_interest</string>
+    <string name="key_total_money_received">send_total_money_received</string>
+    <string name="camera_take_a_picture_success">Chụp ảnh thành công</string>
+    <string name="camera_request_permission_denied">Yêu cầu bật máy ảnh đã bị từ chối </string>
+    <string name="camera_request_permission_granted">Yêu cầu bật máy ảnh được cho phép </string>
+    <string name="time_sleep">3</string>
+    <string name="currency_unit">\đ</string>
+</resources>

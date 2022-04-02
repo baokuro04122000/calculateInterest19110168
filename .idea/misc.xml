@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LearnNewThing/AdroidCode/calculateInterest19110168/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/LearnNewThing/AdroidCode/calculateInterest19110168/app/src/main/res/layout/calculate_interest.xml" value="0.25" />
+        <entry key="..\:/LearnNewThing/AdroidCode/calculateInterest19110168/app/src/main/res/layout/seen_result.xml" value="0.176" />
+        <entry key="..\:/LearnNewThing/AdroidCode/calculateInterest19110168/app/src/main/res/layout/take_a_picture.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

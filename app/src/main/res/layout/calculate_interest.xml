@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="348dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/title"
+        android:textAlignment="center"
+
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <TextView
+        android:id="@+id/labelDeposit"
+        android:layout_width="110dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/label_deposit"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/deposit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <TextView
+        android:id="@+id/labelHintDeposit"
+        android:layout_width="10dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/label_hint_deposit"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/deposit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/deposit"
+        app:layout_constraintTop_toTopOf="@+id/deposit"
+        app:layout_constraintVertical_bias="0.65999997" />
+
+    <EditText
+        android:id="@+id/deposit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:inputType="numberDecimal"
+        android:textAlignment="textStart"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/labelDepositInterestRate"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/label_deposit_interest_rate"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/depositSendingTerm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deposit"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/labelHintDepositRate"
+        android:layout_width="80dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/label_hint_deposit_interest_rate"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/depositSendingTerm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/depositSendingTerm"
+        app:layout_constraintTop_toTopOf="@+id/depositSendingTerm"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <EditText
+        android:id="@+id/depositInterestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnSeenResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depositSendingTerm"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <TextView
+        android:id="@+id/labelSendingTerm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/label_sending_term"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/depositInterestRate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depositSendingTerm"
+        app:layout_constraintVertical_bias="0.744" />
+
+    <TextView
+        android:id="@+id/labelHintSendingTerm"
+        android:layout_width="80dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/label_hint_sending_term"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/depositInterestRate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/depositInterestRate"
+        app:layout_constraintTop_toTopOf="@+id/depositInterestRate"
+        app:layout_constraintVertical_bias="0.45999998" />
+
+    <EditText
+        android:id="@+id/depositSendingTerm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAlignment="textStart"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/btnSeenResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deposit"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <Button
+        android:id="@+id/btnSeenResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/btn_seen_result"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
